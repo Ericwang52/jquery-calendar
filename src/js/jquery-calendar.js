@@ -115,7 +115,7 @@ jQuery(document).ready(function($){
       colors: {
         events: (Args.colors) ? (Args.colors.events) ? Args.colors.events : eventColors : eventColors,
         daynotes: (Args.colors) ? (Args.colors.daynotes) ? Args.colors.daynotes : daynoteColors : daynoteColors,
-        random: (Args.colors) ? (Args.colors.random) ?? Args.colors.random : true : true
+        random: (Args.colors) ? (Args.colors.random) ?? true : true
       },
       categories: {
         enable: (Args.categories) ? (Args.categories.enable !== undefined) ? Args.categories.enable : true : true,
